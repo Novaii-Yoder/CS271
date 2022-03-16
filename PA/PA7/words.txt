@@ -1,0 +1,6 @@
+hello
+data
+alpha
+nutmeg
+alfalfa
+Java is cooler
