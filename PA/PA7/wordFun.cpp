@@ -22,7 +22,7 @@ int main( ) {
    } // end of while
 
    // loops through all the lines saved to the array
-   for (int j = 0; j < i - 1; j++) {
+   for (int j = 0; j < i; j++) {
        // prints the string
        cout << array[j] << endl;
 
