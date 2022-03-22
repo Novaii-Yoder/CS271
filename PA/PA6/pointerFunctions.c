@@ -27,7 +27,10 @@ void printCharArray (char array[], int size, int fieldWidth, int elemsPerLine) {
     printf("\n");
 } // end of printCharArray
 
+// reverses the order of elements in an int array
 void reverse (int* aPtr, int size){
+    // swaps the first element with the last, then, the second
+    // with the second to last and ect.
     for (int i = 0; i < size / 2; i++) {
         int temp = aPtr[i];
         aPtr[i] = aPtr[size - i - 1];
@@ -35,6 +38,7 @@ void reverse (int* aPtr, int size){
     } // end of for
 } // end of reverse
 
+// slides all capital letters to the front of the array
 void slide (char* cPtr, int size) {
     // loops through the entire array the number of times as it has elements
     for (int i = 0; i < size; i++) {
